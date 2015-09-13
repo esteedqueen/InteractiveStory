@@ -20,14 +20,13 @@
         android:layout_height="wrap_content"
         android:text="The rover is covered in dust and most of the solar panels are broken. But you are quite surprised to see the on-board system booted up and running. In fact, there is a message on the screen: \&quot;%1$s, come to 28.543436, -81.369031.\&quot; Those coordinates aren&apos;t far, but you don&apos;t know if your oxygen will last there and back."
         android:id="@+id/storyTextView"
-        android:layout_marginBottom="94dp"
         android:paddingLeft="30dp"
         android:paddingRight="30dp"
-        android:paddingTop="10dp"
         android:lineSpacingMultiplier="1.2"
-        android:layout_alignParentBottom="true"
-        android:layout_alignLeft="@+id/storyImageView"
-        android:layout_alignStart="@+id/storyImageView" />
+        android:layout_above="@+id/choiceButton1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="20dp" />
 
     <Button
         android:layout_width="match_parent"
